@@ -1,0 +1,150 @@
+<link rel="stylesheet" href="style.css" type="text/css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
+
+         #customers {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+         }
+
+         #customers td, #customers th {
+             border: 1px solid #ddd;
+            padding: 8px;
+            }
+
+            #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+            #customers tr:hover {background-color: #FF4C4C;}
+
+            #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #fe001a;
+            color: white;
+            }
+            body {
+                background: linear-gradient(132deg, #ec5218, #1665c1);
+                background-size: 400% 400%;
+                animation: BackgroundGradient 30s ease infinite;
+                
+         }
+          @keyframes BackgroundGradient {
+                0% {background-position: 0% 50%;}
+                50% {background-position: 100% 50%;}
+                100% {background-position: 0% 50%;}
+            }
+         .body {
+             margin: 0 auto;
+             width: 85%;
+             clear: both;
+         }
+         .tabContainer {
+             width: 100%;
+             height: 300px;
+         }
+         .tabContainer .buttonContainer{
+             height: 15%;
+         }
+         .tabContainer .buttonContainer button {
+             width: 20%;
+             height: 100%;
+             float: left;
+             border: none;
+             outline: none;
+             cursor: pointer;
+             padding: 10px;
+             font-family: sans-serif;
+             font-size: 18px;
+             color: aliceblue;
+             background-color: dimgrey;
+             border-radius: 7px;
+         }
+         .tabContainer .buttonContainer button:hover {
+             background-color: crimson;
+         }
+         
+         .tabContainer .tabPanel{
+             height: 85%;
+             background-color: gray;
+             color: white;
+             display: none;
+         }
+          
+         a {
+             text-decoration: none;
+         }
+         a:link, a:visited{
+             
+         }
+         a:hover, a:active{
+             
+         }
+         .mainheader img {
+             width: 10%;
+             height: auto;
+             margin: 2%;
+         }
+         .mainheader nav {
+             background-color: #666;
+             height: 40px;
+             border-radius: 5px;
+             -moz-border-radius: 5px;
+             -webkit-border-radius: 5px;
+             
+         }
+         .mainheader nav ul {
+             list-style: none;
+             margin: 0 auto;
+         }
+         .mainheader nav ul li {
+             float: left;
+             display: inline;
+         }
+         .mainheader nav a:link, .mainheader nav a:visited {
+             color: #FFF;
+             display: inline-block;
+             padding: 10px 25px;
+             height: 40px;
+         }
+         .mainheader nav a:hover, .mainheader nav a:active, .mainheader nav .active a:link, .mainheader nav .active a:visited {
+             background-color: #CF5C3F;
+             text-shadow: none;
+         }
+         .mainheader nav ul li a {
+             border-radius: 5px;
+             -moz-border-radius: 5px;
+             -webkit-border-radius: 5px;
+             text-decoration: none;
+         }
+         .button {
+            background-color: #fe001a; /* Green */
+            border: 2px solid #fe001a ;
+            color: white;
+            padding: 16px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12px;
+            margin: 4px 2px;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            cursor: pointer;
+            }
+
+         .button1 {
+        background-color: white; 
+        color: black; 
+        border-radius: 8px;
+        border: 2px solid black;
+         }
+         .button1:hover {
+        background-color: #fe001a;
+        color: white;
+         }
+ 
